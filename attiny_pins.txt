@@ -1,0 +1,24 @@
+uart1 - ftdi
+	PB2 - RXD0
+	PA7 - TXD0
+
+uart2 - cleanflight
+	PA4 - RXD1
+	PA5 - TXD1
+
+spi ce0 - max7456
+spi ce1 - nrf24l01
+	PA0 - miso
+	PA6 - mosi
+	PA3 - sck
+	PB1 - ce0
+	PA2 - ce1
+
+pwm - ir led
+	PA1
+
+adc - ir receiver
+	PB0
+
+reset
+	PB3

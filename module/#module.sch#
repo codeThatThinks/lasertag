@@ -1,0 +1,831 @@
+v 20130925 2
+C 40000 40000 0 0 0 title-bordered-letter.sym
+{
+T 44600 40100 5 8 1 1 0 0 1
+title=DRONE LASER TAG MODULE
+T 48600 40100 5 8 1 1 0 0 1
+date=11/04/17
+T 49600 40100 5 8 1 1 0 0 1
+version=1.0
+}
+C 44450 44350 1 0 0 MAX7456.sym
+{
+T 47700 47350 5 6 0 0 0 0 1
+device=MAX7456
+T 44550 47175 5 6 1 1 0 0 1
+refdes=U1
+T 47695 47195 5 6 0 0 0 0 1
+symversion=1.0
+T 47700 46900 5 6 0 0 0 0 1
+footprint=TSSOP-4.4-20
+}
+C 46300 41100 1 0 0 ATtiny841-SSU.sym
+{
+T 49550 44100 5 6 0 0 0 0 1
+device=ATtiny841
+T 46400 42925 5 6 1 1 0 0 1
+refdes=U2
+T 49545 43945 5 6 0 0 0 0 1
+symversion=1.0
+T 49550 43650 5 6 0 0 0 0 1
+footprint=SOIC-0.150-14
+}
+C 41400 45050 1 0 0 connector-6x1.sym
+{
+T 41400 47300 5 6 0 0 0 0 1
+device=CONNECTOR_6x1
+T 41450 46475 5 6 1 1 0 0 1
+refdes=J1
+T 41525 45125 5 6 1 1 0 5 1
+value=FTDI
+T 41400 46995 5 6 0 0 0 0 1
+footprint=unknown
+T 41400 47145 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 48550 46050 1 90 0 capacitor-polarized.sym
+{
+T 47100 46050 5 6 0 0 90 0 1
+device=POLARIZED_CAPACITOR
+T 48250 45750 5 6 1 1 90 0 1
+refdes=C1
+T 47250 46050 5 6 0 0 90 0 1
+symversion=1.1
+T 48850 46050 5 10 0 1 90 0 1
+footprint=none
+T 48400 45750 5 6 1 1 90 0 1
+value=0.1u
+T 47540 46060 5 6 0 0 90 0 1
+footprint=unknown
+}
+C 49050 46250 1 90 0 capacitor-polarized.sym
+{
+T 47600 46250 5 6 0 0 90 0 1
+device=POLARIZED_CAPACITOR
+T 48750 46600 5 6 1 1 90 0 1
+refdes=C2
+T 47750 46250 5 6 0 0 90 0 1
+symversion=1.1
+T 49350 46250 5 10 0 1 90 0 1
+footprint=none
+T 48900 46600 5 6 1 1 90 0 1
+value=0.1u
+T 48040 46260 5 6 0 0 90 0 1
+footprint=unknown
+}
+C 49550 46300 1 90 0 resistor.sym
+{
+T 47800 46300 5 6 0 0 90 0 1
+device=RESISTOR
+T 49250 46550 5 6 1 1 90 0 1
+refdes=R1
+T 49350 46545 5 6 1 1 90 0 1
+value=75
+T 48250 46295 5 6 0 0 90 0 1
+footprint=unknown
+T 47950 46295 5 6 0 0 90 0 1
+symversion=1.0
+}
+C 47550 45000 1 0 0 resistor.sym
+{
+T 47550 46750 5 6 0 0 0 0 1
+device=RESISTOR
+T 47800 45300 5 6 1 1 0 0 1
+refdes=R2
+T 47795 45150 5 6 1 1 0 0 1
+value=75
+T 47545 46300 5 6 0 0 0 0 1
+footprint=unknown
+T 47545 46600 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 46600 45100 1 0 0 resistor.sym
+{
+T 46600 46850 5 6 0 0 0 0 1
+device=RESISTOR
+T 46850 45400 5 6 1 1 0 0 1
+refdes=R3
+T 46845 45250 5 6 1 1 0 0 1
+value=1 Ω
+T 46595 46400 5 6 0 0 0 0 1
+footprint=unknown
+T 46595 46700 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 46700 46800 1 0 0 capacitor.sym
+{
+T 46700 48350 5 6 0 0 0 0 1
+device=CAPACITOR
+T 47050 47100 5 6 1 1 0 0 1
+refdes=C3
+T 46700 48200 5 6 0 0 0 0 1
+symversion=1.0
+T 47050 46945 5 6 1 1 0 0 1
+value=0.1u
+T 46700 47895 5 6 0 0 0 0 1
+footprint=unknown
+}
+C 47500 45500 1 0 0 capacitor.sym
+{
+T 47500 47050 5 6 0 0 0 0 1
+device=CAPACITOR
+T 47850 45800 5 6 1 1 0 0 1
+refdes=C4
+T 47500 46900 5 6 0 0 0 0 1
+symversion=1.0
+T 47850 45645 5 6 1 1 0 0 1
+value=0.1u
+T 47500 46595 5 6 0 0 0 0 1
+footprint=unknown
+}
+C 46100 46800 1 0 0 capacitor.sym
+{
+T 46100 48350 5 6 0 0 0 0 1
+device=CAPACITOR
+T 46450 47100 5 6 1 1 0 0 1
+refdes=C5
+T 46100 48200 5 6 0 0 0 0 1
+symversion=1.0
+T 46450 46945 5 6 1 1 0 0 1
+value=0.1u
+T 46100 47895 5 6 0 0 0 0 1
+footprint=unknown
+}
+C 43850 46500 1 0 1 capacitor.sym
+{
+T 43850 48050 5 6 0 0 0 6 1
+device=CAPACITOR
+T 43500 46800 5 6 1 1 0 7 1
+refdes=C6
+T 43850 47900 5 6 0 0 0 6 1
+symversion=1.0
+T 43500 46695 5 6 1 1 0 7 1
+value=0.1u
+T 43850 47595 5 6 0 0 0 6 1
+footprint=unknown
+}
+C 44450 46500 1 90 0 crystal.sym
+{
+T 42950 46500 5 6 0 0 90 0 1
+device=CRYSTAL
+T 44200 46750 5 6 1 1 0 3 1
+refdes=XTAL1
+T 43100 46500 5 6 0 0 90 0 1
+symversion=1.0
+T 43400 46500 5 6 0 0 90 0 1
+footprint=unknown
+}
+C 46600 45600 1 0 0 1-wire-source-+5v.sym
+{
+T 46600 46795 5 6 0 0 0 0 1
+symversion=1.0
+T 46600 47100 5 6 0 0 0 0 1
+device=none
+T 46600 46650 5 6 0 0 0 0 1
+footprint=none
+}
+C 45900 47300 1 0 0 1-wire-source-+5v.sym
+{
+T 45900 48495 5 6 0 0 0 0 1
+symversion=1.0
+T 45900 48800 5 6 0 0 0 0 1
+device=none
+T 45900 48350 5 6 0 0 0 0 1
+footprint=none
+}
+C 46750 46600 1 0 0 gnd.sym
+{
+T 46750 47650 5 6 0 0 0 0 1
+symversion=1.0
+T 46750 47950 5 6 0 0 0 0 1
+device=none
+T 46750 47350 5 6 0 0 0 0 1
+footprint=none
+}
+C 47550 44800 1 0 0 gnd.sym
+{
+T 47550 45850 5 6 0 0 0 0 1
+symversion=1.0
+T 47550 46150 5 6 0 0 0 0 1
+device=none
+T 47550 45550 5 6 0 0 0 0 1
+footprint=none
+}
+N 44450 46400 43950 46400 4
+N 43950 46400 43950 46600 4
+N 44450 47000 43700 47000 4
+C 43600 46300 1 0 0 gnd.sym
+{
+T 43600 47350 5 6 0 0 0 0 1
+symversion=1.0
+T 43600 47650 5 6 0 0 0 0 1
+device=none
+T 43600 47050 5 6 0 0 0 0 1
+footprint=none
+}
+C 43600 47000 1 0 0 1-wire-source-+5v.sym
+{
+T 43600 48195 5 6 0 0 0 0 1
+symversion=1.0
+T 43600 48500 5 6 0 0 0 0 1
+device=none
+T 43600 48050 5 6 0 0 0 0 1
+footprint=none
+}
+N 46850 46800 46250 46800 4
+N 46850 47300 46000 47300 4
+N 46000 47300 46000 46800 4
+N 46000 46800 45700 46800 4
+N 45700 47000 46000 47000 4
+C 49550 46350 1 0 0 input-output.sym
+{
+T 49550 47500 5 6 0 0 0 0 1
+device=none
+T 49550 47350 5 6 0 0 0 0 1
+symversion=1.0
+T 49550 47200 5 6 0 0 0 0 1
+footprint=none
+T 49800 46400 5 4 1 1 0 1 1
+net=VOUT:1
+}
+N 45700 46200 48050 46200 4
+N 45700 46400 48550 46400 4
+C 47650 45450 1 0 0 input-output.sym
+{
+T 47650 46600 5 6 0 0 0 0 1
+device=none
+T 47650 46450 5 6 0 0 0 0 1
+symversion=1.0
+T 47650 46300 5 6 0 0 0 0 1
+footprint=none
+T 47900 45500 5 4 1 1 0 1 1
+net=VIN:1
+}
+N 47650 46000 45700 46000 4
+C 45700 45750 1 0 0 input-output.sym
+{
+T 45700 46900 5 6 0 0 0 0 1
+device=none
+T 45700 46750 5 6 0 0 0 0 1
+symversion=1.0
+T 45700 46600 5 6 0 0 0 0 1
+footprint=none
+T 45950 45800 5 4 1 1 0 1 1
+net=RESET:1
+}
+N 49050 46400 49050 46200 4
+N 49050 46200 48550 46200 4
+C 46700 45050 1 0 0 input-output.sym
+{
+T 46700 46200 5 6 0 0 0 0 1
+device=none
+T 46700 46050 5 6 0 0 0 0 1
+symversion=1.0
+T 46700 45900 5 6 0 0 0 0 1
+footprint=none
+T 46950 45100 5 4 1 1 0 1 1
+net=VSYNC:1
+}
+N 46700 45100 46100 45100 4
+N 46100 45100 46100 45400 4
+N 46100 45400 45700 45400 4
+C 44250 44400 1 0 0 gnd.sym
+{
+T 44250 45450 5 6 0 0 0 0 1
+symversion=1.0
+T 44250 45750 5 6 0 0 0 0 1
+device=none
+T 44250 45150 5 6 0 0 0 0 1
+footprint=none
+}
+C 45700 44400 1 0 0 gnd.sym
+{
+T 45700 45450 5 6 0 0 0 0 1
+symversion=1.0
+T 45700 45750 5 6 0 0 0 0 1
+device=none
+T 45700 45150 5 6 0 0 0 0 1
+footprint=none
+}
+N 44350 44600 44450 44600 4
+N 45800 44600 45800 44800 4
+N 45800 44800 45700 44800 4
+N 45700 44600 45800 44600 4
+C 44450 45750 1 0 1 input-output.sym
+{
+T 44450 46900 5 6 0 0 0 6 1
+device=none
+T 44450 46750 5 6 0 0 0 6 1
+symversion=1.0
+T 44450 46600 5 6 0 0 0 6 1
+footprint=none
+T 44200 45800 5 4 1 1 0 7 1
+net=CS0:1
+}
+C 44450 45550 1 0 1 input-output.sym
+{
+T 44450 46700 5 6 0 0 0 6 1
+device=none
+T 44450 46550 5 6 0 0 0 6 1
+symversion=1.0
+T 44450 46400 5 6 0 0 0 6 1
+footprint=none
+T 44200 45600 5 4 1 1 0 7 1
+net=MOSI:1
+}
+C 44450 45350 1 0 1 input-output.sym
+{
+T 44450 46500 5 6 0 0 0 6 1
+device=none
+T 44450 46350 5 6 0 0 0 6 1
+symversion=1.0
+T 44450 46200 5 6 0 0 0 6 1
+footprint=none
+T 44200 45400 5 4 1 1 0 7 1
+net=SCK:1
+}
+C 44450 45150 1 0 1 input-output.sym
+{
+T 44450 46300 5 6 0 0 0 6 1
+device=none
+T 44450 46150 5 6 0 0 0 6 1
+symversion=1.0
+T 44450 46000 5 6 0 0 0 6 1
+footprint=none
+T 44200 45200 5 4 1 1 0 7 1
+net=MISO:1
+}
+C 45850 43350 1 0 0 1-wire-source-+5v.sym
+{
+T 45850 44545 5 6 0 0 0 0 1
+symversion=1.0
+T 45850 44850 5 6 0 0 0 0 1
+device=none
+T 45850 44400 5 6 0 0 0 0 1
+footprint=none
+}
+C 46100 41150 1 0 0 gnd.sym
+{
+T 46100 42200 5 6 0 0 0 0 1
+symversion=1.0
+T 46100 42500 5 6 0 0 0 0 1
+device=none
+T 46100 41900 5 6 0 0 0 0 1
+footprint=none
+}
+N 46300 41350 46200 41350 4
+C 45150 41750 1 0 0 resistor.sym
+{
+T 45150 43500 5 6 0 0 0 0 1
+device=RESISTOR
+T 45400 42050 5 6 1 1 0 0 1
+refdes=R4
+T 45395 41900 5 6 1 1 0 0 1
+value=10k
+T 45145 43050 5 6 0 0 0 0 1
+footprint=unknown
+T 45145 43350 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 45150 42250 1 0 0 1-wire-source-+5v.sym
+{
+T 45150 43445 5 6 0 0 0 0 1
+symversion=1.0
+T 45150 43750 5 6 0 0 0 0 1
+device=none
+T 45150 43300 5 6 0 0 0 0 1
+footprint=none
+}
+C 45250 41700 1 0 1 input-output.sym
+{
+T 45250 42850 5 6 0 0 0 6 1
+device=none
+T 45250 42700 5 6 0 0 0 6 1
+symversion=1.0
+T 45250 42550 5 6 0 0 0 6 1
+footprint=none
+T 45000 41750 5 4 1 1 0 7 1
+net=RESET:1
+}
+N 45250 41750 46300 41750 4
+C 46100 42850 1 0 1 capacitor.sym
+{
+T 46100 44400 5 6 0 0 0 6 1
+device=CAPACITOR
+T 45750 43150 5 6 1 1 0 6 1
+refdes=C7
+T 46100 44250 5 6 0 0 0 6 1
+symversion=1.0
+T 45750 42995 5 6 1 1 0 6 1
+value=0.1u
+T 46100 43945 5 6 0 0 0 6 1
+footprint=unknown
+}
+C 45850 42650 1 0 0 gnd.sym
+{
+T 45850 43700 5 6 0 0 0 0 1
+symversion=1.0
+T 45850 44000 5 6 0 0 0 0 1
+device=none
+T 45850 43400 5 6 0 0 0 0 1
+footprint=none
+}
+N 46300 42750 46200 42750 4
+N 46200 42750 46200 43350 4
+N 46200 43350 45950 43350 4
+C 48350 42700 1 0 0 input-output.sym
+{
+T 48350 43850 5 6 0 0 0 0 1
+device=none
+T 48350 43700 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 43550 5 6 0 0 0 0 1
+footprint=none
+T 48600 42750 5 4 1 1 0 1 1
+net=MISO:1
+}
+C 48350 41500 1 0 0 input-output.sym
+{
+T 48350 42650 5 6 0 0 0 0 1
+device=none
+T 48350 42500 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 42350 5 6 0 0 0 0 1
+footprint=none
+T 48600 41550 5 4 1 1 0 1 1
+net=MOSI:1
+}
+C 48350 42100 1 0 0 input-output.sym
+{
+T 48350 43250 5 6 0 0 0 0 1
+device=none
+T 48350 43100 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 42950 5 6 0 0 0 0 1
+footprint=none
+T 48600 42150 5 4 1 1 0 1 1
+net=SCK:1
+}
+C 48350 42300 1 0 0 input-output.sym
+{
+T 48350 43450 5 6 0 0 0 0 1
+device=none
+T 48350 43300 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 43150 5 6 0 0 0 0 1
+footprint=none
+T 48600 42350 5 4 1 1 0 1 1
+net=CS0:1
+}
+C 46300 41900 1 0 1 input-output.sym
+{
+T 46300 43050 5 6 0 0 0 6 1
+device=none
+T 46300 42900 5 6 0 0 0 6 1
+symversion=1.0
+T 46300 42750 5 6 0 0 0 6 1
+footprint=none
+T 46050 41950 5 4 1 1 0 7 1
+net=RXI:1
+}
+C 48350 41300 1 0 0 input-output.sym
+{
+T 48350 42450 5 6 0 0 0 0 1
+device=none
+T 48350 42300 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 42150 5 6 0 0 0 0 1
+footprint=none
+T 48600 41350 5 4 1 1 0 1 1
+net=TXO:1
+}
+T 41350 46300 9 6 1 0 0 7 1
+GND
+T 41350 46100 9 6 1 0 0 7 1
+CTS
+T 41350 45900 9 6 1 0 0 7 1
+VCC
+T 41350 45700 9 6 1 0 0 7 1
+TXO
+T 41350 45500 9 6 1 0 0 7 1
+RXI
+T 41350 45300 9 6 1 0 0 7 1
+DTR
+C 41750 45650 1 0 0 input-output.sym
+{
+T 41750 46800 5 6 0 0 0 0 1
+device=none
+T 41750 46650 5 6 0 0 0 0 1
+symversion=1.0
+T 41750 46500 5 6 0 0 0 0 1
+footprint=none
+T 42000 45700 5 4 1 1 0 1 1
+net=TXO:1
+}
+C 41750 45450 1 0 0 input-output.sym
+{
+T 41750 46600 5 6 0 0 0 0 1
+device=none
+T 41750 46450 5 6 0 0 0 0 1
+symversion=1.0
+T 41750 46300 5 6 0 0 0 0 1
+footprint=none
+T 42000 45500 5 4 1 1 0 1 1
+net=RXI:1
+}
+C 41750 45250 1 0 0 input-output.sym
+{
+T 41750 46400 5 6 0 0 0 0 1
+device=none
+T 41750 46250 5 6 0 0 0 0 1
+symversion=1.0
+T 41750 46100 5 6 0 0 0 0 1
+footprint=none
+T 42000 45300 5 4 1 1 0 1 1
+net=DTR:1
+}
+C 41950 45900 1 0 0 1-wire-source-+5v.sym
+{
+T 41950 47095 5 6 0 0 0 0 1
+symversion=1.0
+T 41950 47400 5 6 0 0 0 0 1
+device=none
+T 41950 46950 5 6 0 0 0 0 1
+footprint=none
+}
+C 41750 45000 1 0 0 gnd.sym
+{
+T 41750 46050 5 6 0 0 0 0 1
+symversion=1.0
+T 41750 46350 5 6 0 0 0 0 1
+device=none
+T 41750 45750 5 6 0 0 0 0 1
+footprint=none
+}
+N 41850 45200 41850 46300 4
+N 41850 46300 41750 46300 4
+N 41750 46100 41850 46100 4
+N 42050 45900 41750 45900 4
+C 40900 42950 1 0 0 led.sym
+{
+T 40900 44450 5 6 0 0 0 0 1
+device=LED
+T 41250 43200 5 6 1 1 0 0 1
+refdes=D1
+T 40900 44300 5 6 0 0 0 0 1
+symversion=1.0
+T 40900 44000 5 6 0 0 0 0 1
+footprint=unknown
+T 41250 43050 5 6 1 1 0 0 1
+value=IR
+}
+C 40900 42450 1 0 0 resistor.sym
+{
+T 40900 44200 5 6 0 0 0 0 1
+device=RESISTOR
+T 41150 42750 5 6 1 1 0 0 1
+refdes=R5
+T 41145 42600 5 6 1 1 0 0 1
+value=560
+T 40895 43750 5 6 0 0 0 0 1
+footprint=unknown
+T 40895 44050 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 40900 42250 1 0 0 gnd.sym
+{
+T 40900 43300 5 6 0 0 0 0 1
+symversion=1.0
+T 40900 43600 5 6 0 0 0 0 1
+device=none
+T 40900 43000 5 6 0 0 0 0 1
+footprint=none
+}
+C 48350 42500 1 0 0 input-output.sym
+{
+T 48350 43650 5 6 0 0 0 0 1
+device=none
+T 48350 43500 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 43350 5 6 0 0 0 0 1
+footprint=none
+T 48600 42550 5 4 1 1 0 1 1
+net=IR_SEND:1
+}
+C 41000 43400 1 0 0 input-output.sym
+{
+T 41000 44550 5 6 0 0 0 0 1
+device=none
+T 41000 44400 5 6 0 0 0 0 1
+symversion=1.0
+T 41000 44250 5 6 0 0 0 0 1
+footprint=none
+T 41250 43450 5 4 1 1 0 1 1
+net=IR_SEND:1
+}
+C 43500 42300 1 0 1 transistor-PNP.sym
+{
+T 43100 42650 5 6 1 1 0 6 1
+refdes=Q1
+T 43496 43606 5 6 0 0 0 6 1
+footprint=unknown
+T 43100 42500 5 6 1 1 0 6 1
+device=IR_RECV
+T 43500 43900 5 6 0 0 0 6 1
+symversion=1.0
+}
+C 43050 42100 1 0 0 gnd.sym
+{
+T 43050 43150 5 6 0 0 0 0 1
+symversion=1.0
+T 43050 43450 5 6 0 0 0 0 1
+device=none
+T 43050 42850 5 6 0 0 0 0 1
+footprint=none
+}
+C 43050 43400 1 0 0 1-wire-source-+5v.sym
+{
+T 43050 44595 5 6 0 0 0 0 1
+symversion=1.0
+T 43050 44900 5 6 0 0 0 0 1
+device=none
+T 43050 44450 5 6 0 0 0 0 1
+footprint=none
+}
+C 43500 42550 1 0 0 input-output.sym
+{
+T 43500 43700 5 6 0 0 0 0 1
+device=none
+T 43500 43550 5 6 0 0 0 0 1
+symversion=1.0
+T 43500 43400 5 6 0 0 0 0 1
+footprint=none
+T 43750 42600 5 4 1 1 0 1 1
+net=IR_RECV:1
+}
+C 43050 42900 1 0 0 resistor.sym
+{
+T 43050 44650 5 6 0 0 0 0 1
+device=RESISTOR
+T 43300 43200 5 6 1 1 0 0 1
+refdes=R6
+T 43295 43050 5 6 1 1 0 0 1
+value=1 Ω
+T 43045 44200 5 6 0 0 0 0 1
+footprint=unknown
+T 43045 44500 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 42500 42550 1 0 1 capacitor.sym
+{
+T 42500 44100 5 6 0 0 0 6 1
+device=CAPACITOR
+T 42150 42850 5 6 1 1 0 6 1
+refdes=C8
+T 42500 43950 5 6 0 0 0 6 1
+symversion=1.0
+T 42150 42695 5 6 1 1 0 6 1
+value=0.1u
+T 42500 43645 5 6 0 0 0 6 1
+footprint=unknown
+}
+N 42350 43050 42350 43400 4
+N 42350 43400 43150 43400 4
+N 42350 42550 42350 42300 4
+N 42350 42300 43150 42300 4
+C 46300 42300 1 0 1 input-output.sym
+{
+T 46300 43450 5 6 0 0 0 6 1
+device=none
+T 46300 43300 5 6 0 0 0 6 1
+symversion=1.0
+T 46300 43150 5 6 0 0 0 6 1
+footprint=none
+T 46050 42350 5 4 1 1 0 7 1
+net=IR_RECV:1
+}
+C 48350 41900 1 0 0 input-output.sym
+{
+T 48350 43050 5 6 0 0 0 0 1
+device=none
+T 48350 42900 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 42750 5 6 0 0 0 0 1
+footprint=none
+T 48600 41950 5 4 1 1 0 1 1
+net=FC_RXI:1
+}
+C 48350 41700 1 0 0 input-output.sym
+{
+T 48350 42850 5 6 0 0 0 0 1
+device=none
+T 48350 42700 5 6 0 0 0 0 1
+symversion=1.0
+T 48350 42550 5 6 0 0 0 0 1
+footprint=none
+T 48600 41750 5 4 1 1 0 1 1
+net=FC_TXO:1
+}
+C 46300 42100 1 0 1 input-output.sym
+{
+T 46300 43250 5 6 0 0 0 6 1
+device=none
+T 46300 43100 5 6 0 0 0 6 1
+symversion=1.0
+T 46300 42950 5 6 0 0 0 6 1
+footprint=none
+T 46050 42150 5 4 1 1 0 7 1
+net=STATUS:1
+}
+C 41650 41200 1 0 0 led.sym
+{
+T 41650 42700 5 6 0 0 0 0 1
+device=LED
+T 41950 41400 5 6 1 1 0 0 1
+refdes=D2
+T 41650 42550 5 6 0 0 0 0 1
+symversion=1.0
+T 41650 42250 5 6 0 0 0 0 1
+footprint=unknown
+}
+C 41650 40700 1 0 0 resistor.sym
+{
+T 41650 42450 5 6 0 0 0 0 1
+device=RESISTOR
+T 41900 41000 5 6 1 1 0 0 1
+refdes=R7
+T 41895 40850 5 6 1 1 0 0 1
+value=1 Ω
+T 41645 42000 5 6 0 0 0 0 1
+footprint=unknown
+T 41645 42300 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 41650 40500 1 0 0 gnd.sym
+{
+T 41650 41550 5 6 0 0 0 0 1
+symversion=1.0
+T 41650 41850 5 6 0 0 0 0 1
+device=none
+T 41650 41250 5 6 0 0 0 0 1
+footprint=none
+}
+C 41750 41650 1 0 0 input-output.sym
+{
+T 41750 42800 5 6 0 0 0 0 1
+device=none
+T 41750 42650 5 6 0 0 0 0 1
+symversion=1.0
+T 41750 42500 5 6 0 0 0 0 1
+footprint=none
+T 42000 41700 5 4 1 1 0 1 1
+net=STATUS:1
+}
+C 48700 43750 1 0 0 connector-3x1.sym
+{
+T 48700 45300 5 6 0 0 0 0 1
+device=CONNECTOR_3x1
+T 48750 44575 5 6 1 1 0 0 1
+refdes=J2
+T 48825 43825 5 6 1 1 0 5 1
+value=3x1
+T 48700 44995 5 6 0 0 0 0 1
+footprint=unknown
+T 48700 45145 5 6 0 0 0 0 1
+symversion=1.0
+}
+C 49050 43700 1 0 0 gnd.sym
+{
+T 49050 44750 5 6 0 0 0 0 1
+symversion=1.0
+T 49050 45050 5 6 0 0 0 0 1
+device=none
+T 49050 44450 5 6 0 0 0 0 1
+footprint=none
+}
+C 49250 44150 1 0 0 input-output.sym
+{
+T 49250 45300 5 6 0 0 0 0 1
+device=none
+T 49250 45150 5 6 0 0 0 0 1
+symversion=1.0
+T 49250 45000 5 6 0 0 0 0 1
+footprint=none
+T 49500 44200 5 4 1 1 0 1 1
+net=FC_TXO:1
+}
+C 49250 43950 1 0 0 input-output.sym
+{
+T 49250 45100 5 6 0 0 0 0 1
+device=none
+T 49250 44950 5 6 0 0 0 0 1
+symversion=1.0
+T 49250 44800 5 6 0 0 0 0 1
+footprint=none
+T 49500 44000 5 4 1 1 0 1 1
+net=NET:1
+}
+N 49050 44400 49150 44400 4
+N 49150 44400 49150 43900 4
+N 49250 44200 49050 44200 4
+N 49250 44000 49050 44000 4
